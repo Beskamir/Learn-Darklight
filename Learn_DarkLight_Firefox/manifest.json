@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Learn Darklight",
-  "version": "1.4.8",
-  "author": "Zijian Shao",
+  "name": "D2L Theme Addon",
+  "version": "1.0.0",
+  "author": "Sebastian Kopacz, based on Zijian Shao's addon",
   "background": {
     "scripts": [
       "js/configs.js",
@@ -16,7 +16,7 @@
       "32": "icon/icon32.png"
     },
     "default_popup": "html/popup.html",
-    "default_title": "Learn Darklight"
+    "default_title": "D2L Theme Addon"
   },
   "content_scripts": [
     {
@@ -27,8 +27,7 @@
         "js/init.js"
       ],
       "matches": [
-        "*://learn.uwaterloo.ca/*",
-        "*://mylearningspace.wlu.ca/*"
+        "*://d2l.ucalgary.ca/d2l/*"
       ],
       "run_at": "document_start"
     },
@@ -37,13 +36,12 @@
         "js/init_idle.js"
       ],
       "matches": [
-        "*://learn.uwaterloo.ca/*",
-        "*://mylearningspace.wlu.ca/*"
+        "*://d2l.ucalgary.ca/d2l/*"
       ],
       "run_at": "document_end"
     }
   ],
-  "description": "Learn Darklight offers multiple themes for the new Waterloo Learn.",
+  "description": "Learn Darklight offers multiple themes for the new UofC D2L.",
   "icons": {
     "128": "icon/icon128.png",
     "16": "icon/icon16.png",
@@ -56,8 +54,7 @@
     "activeTab",
     "contextMenus",
     "storage",
-    "*://learn.uwaterloo.ca/*",
-    "*://mylearningspace.wlu.ca/*"
+    "*://d2l.ucalgary.ca/d2l/*"
   ],
   "short_name": "Learn Darklight",
   "web_accessible_resources": [

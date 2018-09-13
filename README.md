@@ -1,3 +1,9 @@
+
+# UofC's D2L theme extension
+This is an extended version of Zijian Shao's Darklight theme for Waterloo Learn so that it also works for UofC's version of desire to learn. In fact it'd probably be a good idea to make it work for all desire to learn websites...
+
+
+
 # Learn Darklight
 Learn Darklight is a browser extension that offers multiple themes for Waterloo Learn. [Visit extension website](https://www.zijianshao.com/dlight/ "Learn Darklight Official Website")
 
